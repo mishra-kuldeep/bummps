@@ -258,6 +258,8 @@ input[type="submit"]{cursor: pointer; border: 0px; outline: none; background: no
   .testiHdngWrap::after {background-size: 18px;width: 18px;height: 13px;}
   .getAppWrap{flex-wrap: wrap;justify-content: center;margin-bottom: 20px;}
   .getAppWrap span{width: 100%;text-align: center;margin-bottom: 10px;}
+  .getAppWrap a {margin-left: 0;}
+  .getAppWrap img{width: 140px;}
   .ftrContactWrap .ftrCol:first-child{width: 100%;}
   .ftrmenu{justify-content: center;flex-wrap: wrap;}
   .ftrmenu li{margin-bottom: 10px;}
