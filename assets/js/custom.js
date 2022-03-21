@@ -42,7 +42,12 @@ $(document).ready(function () {
             },
             991: {
                 items: 3,
+            },
+            1199: {
+                items: 4,
             }
         }
     })
 })
+
+new WOW().init();
