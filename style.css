@@ -112,6 +112,7 @@ input[type="submit"]{cursor: pointer; border: 0px; outline: none; background: no
 .hdrinr{display: flex;justify-content: space-between;align-items: center;}
 .bnrcontWrap{position: relative;z-index: 5;}
 .bnrcontWrap h1{font-family: 'PopoinsBold', sans-serif;font-size: 80px;color: var(--ColorTheme);}
+.res-Show{display: none;}
 
 /* Inner Banner */
 .inrBannerSec{min-height: 100vh;/*background-image: linear-gradient(to left top, #fded00, #ffdb00, #ffc901, #feb80f, #faa71a);*/background-image: linear-gradient(to left top, #f16dda, #f460c0, #f454a7, #f04a8e, #e94476);display: flex;align-items: center;margin-bottom: 140px;}
@@ -207,6 +208,8 @@ input[type="submit"]{cursor: pointer; border: 0px; outline: none; background: no
 @media only screen and (max-width: 991px) {
   .headersec{height: 70px;}
   .slimmenu li a{font-size: 15px;line-height: 15px;}
+  .bannerSec{background-image: none;height: 450px;}
+  .bannerSec .res-Show{display: block;width: 100%;position: absolute;top: 0;left: 0;height: 450px;object-fit: cover;}
   .bnrcontWrap h1{font-size: 50px;}
   .ftrContactWrap{flex-wrap: wrap;}
   .ftrCol{width: 50%;}
@@ -224,6 +227,8 @@ input[type="submit"]{cursor: pointer; border: 0px; outline: none; background: no
   .headersec{height: 60px;}
   .hdrlgo img {width: 100px;}
   .slimmenu li a{font-size: 14px;line-height: 14px;}
+  .bannerSec{height: 350px;}
+  .bannerSec .res-Show{height: 350px;}
   .bnrcontWrap h1{font-size: 40px;}
   .testiCarrousel .testiCont{min-height: 160px;}
   .testiHdngWrap span{font-size: 16px;line-height: 16px;}
@@ -239,6 +244,9 @@ input[type="submit"]{cursor: pointer; border: 0px; outline: none; background: no
 }
 	
 @media only screen and (max-width: 575px){
+  .bannerSec{height: 250px;}
+  .bannerSec .res-Show{height: 250px;}
+  .bnrcontWrap h1 {font-size: 30px;}
   .inrBannerSec{height: 100vh;margin-bottom: 40px;}
   .inrBrnCont{max-width: 100%;}
   .bnrRighttCont{display: none;}
@@ -252,6 +260,8 @@ input[type="submit"]{cursor: pointer; border: 0px; outline: none; background: no
 }
 	
 @media only screen and (max-width: 480px){
+  .bannerSec{height: 200px;}
+  .bannerSec .res-Show{height: 200px;}
   .bnrcontWrap h1 {font-size: 25px;}
   .testiSec{padding: 28px 0;}
   .testiHdngWrap{margin-bottom: 15px;}
