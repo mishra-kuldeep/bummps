@@ -260,8 +260,6 @@ input[type="submit"]{cursor: pointer; border: 0px; outline: none; background: no
 }
 	
 @media only screen and (max-width: 480px){
-  .bannerSec{height: 200px;}
-  .bannerSec .res-Show{height: 200px;}
   .bnrcontWrap h1 {font-size: 25px;}
   .testiSec{padding: 28px 0;}
   .testiHdngWrap{margin-bottom: 15px;}
